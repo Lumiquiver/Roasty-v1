@@ -7,7 +7,7 @@ class RoastyApp:
         self.root = root
         self.root.title("Roasty - AI Roast Master")
         self.root.geometry("500x600")
-        self.convo = Conversation(Style.new_york)
+        self.convo = Conversation(Style.default)
         
         # Chat Display
         self.chat_display = scrolledtext.ScrolledText(root, wrap=tk.WORD, state='disabled', height=20)
